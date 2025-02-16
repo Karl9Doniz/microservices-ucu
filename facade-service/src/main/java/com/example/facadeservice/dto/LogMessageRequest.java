@@ -1,22 +1,24 @@
 package com.example.facadeservice.dto;
 
+import java.util.UUID;
+
 public class LogMessageRequest {
-    private String id;
+    private UUID id;
     private String message;
 
     public LogMessageRequest() {
     }
 
-    public LogMessageRequest(String id, String message) {
+    public LogMessageRequest(UUID id, String message) {
         this.id = id;
         this.message = message;
     }
 
-    public String getId() {
+    public UUID getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(UUID id) {
         this.id = id;
     }
 

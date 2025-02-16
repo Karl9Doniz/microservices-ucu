@@ -5,11 +5,11 @@ import java.util.*;
 
 @Service
 public class LoggingService {
-    private final Map<String, String> messageStore = new HashMap<>();
+    private final Map<UUID, String> messageStore = new HashMap<>();
 
-    public void storeMessage(String id, String message) {
+    public void storeMessage(UUID id, String message) {
         messageStore.put(id, message);
-        System.out.println("Stored message: " + message);
+        System.out.println("Stored message with UUID " + id + ": " + message);
     }
 
     public List<String> getAllMessages() {
