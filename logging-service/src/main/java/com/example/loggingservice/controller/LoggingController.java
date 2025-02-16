@@ -1,6 +1,5 @@
 package com.example.loggingservice.controller;
 
-import com.example.facadeservice.dto.LogMessageRequest;
 import com.example.loggingservice.service.LoggingService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

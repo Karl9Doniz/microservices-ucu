@@ -1,4 +1,4 @@
-package com.example.facadeservice.dto;
+package com.example.loggingservice.controller;
 
 import java.util.UUID;
 

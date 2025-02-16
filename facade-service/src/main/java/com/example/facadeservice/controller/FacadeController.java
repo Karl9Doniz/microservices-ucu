@@ -1,6 +1,5 @@
 package com.example.facadeservice.controller;
 
-import com.example.facadeservice.dto.LogMessageRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestClient;
